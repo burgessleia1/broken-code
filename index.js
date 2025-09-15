@@ -1,13 +1,4 @@
-// error_instructions.js
 
-// 1. SyntaxError: Unexpected token ';'
-/*
-Instructions:
-    * Carefully examine the line of code where the error occurred.
-    * Pay close attention to punctuation marks, especially semicolons, parentheses, and brackets.
-    * Ensure that all statements are properly terminated and that function calls have matching parentheses.
-    * Double-check for any missing or extra characters that might be disrupting the code's structure.
-*/
 let message = "Hello, World!";
 //console.log(message; // SyntaxError: Unexpected token ';'
 
@@ -69,4 +60,5 @@ Instructions:
     * Be aware that if the string that is being converted to a number, is not a number, then the result will be NaN.
 */
 let num = "10";
-//console.log(num + 5); // "105"
+//console.log(num + 5); // "
+
