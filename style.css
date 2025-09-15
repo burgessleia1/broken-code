@@ -1,9 +1,9 @@
 p {
-  font-size: largeer; /* Console warning: Invalid property value */
+  font-size: 24pt; 
 }
 
 h1 {
-  fontsize: 23xp;
+  fontsize: 23px;
   color: purple;
 }
 
@@ -11,8 +11,8 @@ h1 {
   colro: red;
   width: 500px;
   height: 500px;
-  /* background should be the same as #output */
-  background-color: #f3SupeCoolColor;
+   
+  background-color: #f0f0f0;
 }
 
 #output {
