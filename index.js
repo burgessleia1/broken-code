@@ -7,7 +7,9 @@ let myvariable=42;
 const greeting = "Hello";
 
 
-let obj = { property:"value"};
+let obj = { 
+    property:"value"
+};
 
 const user = {
     name: "John",
