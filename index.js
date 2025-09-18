@@ -1,6 +1,8 @@
 
 // error_instructions.js
 
+console.log(message);
+
 // 1. SyntaxError: Unexpected token ';'
 /*
 Instructions:
@@ -20,7 +22,8 @@ Instructions:
     * Verify the spelling of the variable name in both the declaration and the usage.
     * Ensure that the variable is declared before it's used.
 */
-//console.log(myVariable); // ReferenceError: myVariable is not defined
+let myVariable = "Defined now!";
+console.log(myVariable);
 
 // 3. TypeError: greeting is not a function
 /*
@@ -31,7 +34,7 @@ Instructions:
     * Remember that only functions can be called using parentheses `()`.
     * If you need to use the variable greeting, then use it as a variable, not a function.
 */
-const greeting = "Hello";
+console.log(greeting);
 //greeting(); // TypeError: greeting is not a function
 
 // 4. TypeError: Cannot read property 'property' of undefined
@@ -42,7 +45,8 @@ Instructions:
     * Make sure the variable has been assigned an object before you attempt to access its properties.
     * If you expect the variable to hold an object, you may need to add code that assigns an object to the variable.
 */
-let obj;
+let obj = { property: "value" };
+console.log(obj.property);
 //console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
 
 // 5. Incorrect Object Concatenation
@@ -53,10 +57,7 @@ Instructions:
     * Consider using template literals or `JSON.stringify()` to create a string representation of the object.
     * Remember that the console.log() function can take multiple arguments, and will display them all.
 */
-const user = {
-    name: "John",
-    age: 30,
-};
+console.log(`User info: ${user.name}, Age: ${user.age}`);
 
 //console.log("User info: " + user); // Output: User info: [object Object]
 
@@ -69,6 +70,5 @@ Instructions:
     * Use functions like `parseInt()` or `parseFloat()` to convert strings to numbers.
     * Be aware that if the string that is being converted to a number, is not a number, then the result will be NaN.
 */
-let num = "10";
+console.log(Number(num) + 5);
 //console.log(num + 5); // "105"
-
